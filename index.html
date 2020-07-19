@@ -6,10 +6,12 @@
     
     <title>Ready Food | Taste the difference</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+ <link rel="stylesheet" href="bootstrap/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/nicepage.css" media="screen">
+  
 </head>
 
 <body>
@@ -24,28 +26,28 @@
             </div>
         </div>
         <nav class="navbar navbar-dark navbar-expand-sm">
-            <a href="/" class="navbar-brand">Ready Food</a>
+            <a href="index.html" class="navbar-brand">Ready Food</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="active nav-item mr-2"><a class="active nav-link" href="/">Home</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="/" >About</a></li>
+                    <li class="active nav-item mr-2"><a class="active nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="#reviews" >Reviews</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="dishes.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dishes
         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Steak</a>
-                            <a class="dropdown-item" href="#">Spaghetti</a>
-                            <a class="dropdown-item" href="#">Sushi</a>
-                            <a class="dropdown-item" href="#">Pizza</a>
+                            <a class="dropdown-item" href="dishes.html">Steak</a>
+                            <a class="dropdown-item" href="dishes.html">Spaghetti</a>
+                            <a class="dropdown-item" href="dishes.html">Sushi</a>
+                            <a class="dropdown-item" href="dishes.html">Pizza</a>
                         </div>
                     </li>
 
-                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sign Up</a></li>
+                    <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link"data-toggle="modal" data-target="#signUpModal">Sign In / Sign Up</a></li>
                 </ul>
             </div>
             <div class="d-none d-md-block">
@@ -66,7 +68,7 @@
                         <s class="d-none d-sm-inline"></s>
                         <span class="d-inline d-sm-none"><br></span>
                         <strong><mark>Second order is free!</mark></strong></p>
-                    <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Order now!</button>
+                    <a href="dishes.html"><button class="btn btn-lg btn--cta btn--red" >Order now!</button></a>
                     <p class="text-muted"><small>“Ask not what you can do for your country. Ask what’s for lunch.”
 ― Orson Welles</small></p>
                 </section>
@@ -81,7 +83,7 @@
             <section class="quotes">
                 <div class="row">
                     <div class="col-12 page-header">
-                        <h2 class="text-uppercase">Reviews:</h2>
+                        <h2 id="reviews" class="text-uppercase">Reviews:</h2>
                         <hr class="block-divider block-divider--short">
                     </div>
                 </div>
@@ -144,7 +146,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
+                    <h5 class="modal-title">Sign Up To Ready Food restaurant!</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
