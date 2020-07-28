@@ -10,7 +10,7 @@ Ready food provides a user friendly and an intuituve user experience, with only 
 all of which can be accessed from the header on any page on the site.
 
 The user on visit to Ready food is at first glance presented with a mouth watering background, an offer for second visitors and an action button
-that says order now which take our users to the food menu page on first click to start making their orders right away. Ready food delivers food to the door
+that says Food Menu, which take our users to the food menu page on first click to start making their orders right away. Ready food delivers food to the door
 of our users saving our users productive time and travel cost.
 
 *User stories include:*
