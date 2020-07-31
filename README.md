@@ -41,19 +41,22 @@ of our users saving our users productive time and travel cost.
 ### Features Left to Implement
 <ul>
 <li>Search field: On the dishes page it will be good to have a search field where users can search on the different dishes available.</li>
-<li>Checkout Page: There would be a check out page where the user will be able to checkout after selecting their deseired dishes.</li>
+<li>Ecommerce checkout Page: There would be a check out page where the user will be able to checkout after adding their deseired dishes to cart</li>
 </ul>
 
 ## **Technologies used**
 <ul>
+<li>HTML5</li>
+<li>CSS3</li>
 <li>JQuery: The project uses JQuery to simplify DOM manipulation.</li>
 <li>Bootstrap: Bootstrap was used to implement stylings and create reuseable components.</li>
-<li>NicePage: The project uses nicePage to ensure designs remains intact in all resolutions.</li>
+<li>NicePage: The project uses nicePage, a bootstrap like free and open-source CSS framework directed at responsive, mobile-first front-end web development.</li>
+
 </ul>
 
 ## **Testing**
 Testing on the Food Ready Restaurant Website was carried out manually. The test approach was to test every user story individually by creating 
-user journies and scenarios required to navigate through the entire site. While testing, a few bugs were found and fixed and these are are all listed below.
+user journies and scenarios required to navigate through the entire site. While testing, a few bugs were found and fixed and these are are all listed below. Devtool and light house was also used to test the application.
 
 ### **Home Page**
 <ul>
@@ -90,6 +93,7 @@ user journies and scenarios required to navigate through the entire site. While 
 <ul>
 <li>Unable to step out of sign up modal on dishes page: This was due to a missing closing div.</li>
 <li>Clicking on modal in mobile sizes resulted in a 404: This was due to the nav for mobile having the wrong href.</li>
+<li>Images mot displaying on pages due to wrong href and console error was giving a 404.</li>
 </ul>
 
 ## **Deployment**

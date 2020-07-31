@@ -27,7 +27,7 @@ body {
 .callout-container {
     height: 100vh;
     /*no-repeat bottom right fixed*/
-    background: url('../images/home/1.jpg')no-repeat bottom right fixed;
+    background: url('../images/home/1.png')no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -70,11 +70,10 @@ body {
     background-color: rgba(0, 0, 0, .8);
     border: 0;
     color: white;
-    padding-top: 0;
-    padding-bottom: 0;
+
 }
 .navbar-dark .navbar-text {
-    color: white;;
+    color: white;
 }
 
 
