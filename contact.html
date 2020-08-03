@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-us">
+   <head>
+      <meta charset="utf-8">
+      <meta name="description" content="An online restaurant">
+      <meta name="keywords" content="Food, Restaurant, Order">
+      <meta name="author" content="Michael Osarumwense">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Ready Food | Taste the difference</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css" type="text/css" />
+   </head>
+   <body>
+      <div class="container-fluid navalert-container">
+         <nav class="navbar navbar-dark navbar-expand-sm" id="navbar">
+            <a href="index.html" class="navbar-brand">Ready Food</a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link dropdown-toggle" href="dishes.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Dishes
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="steak.html">Steak</a>
+                        <a class="dropdown-item" href="spaghetti.html">Spaghetti</a>
+                        <a class="dropdown-item" href="sushi.html">Sushi</a>
+                        <a class="dropdown-item" href="pizza.html">Pizza</a>
+                     </div>
+                  </li>
+                  <li class="active nav-item mr-2"><a class="nav-link" href="contact.html" >Contact</a></li>
+               </ul>
+            </div>
+            <div class="d-none d-md-block">
+               <p class="navbar-text my-auto mr-2"><i>Great food delivered to your door!</i></p>
+            </div>
+         </nav>
+      </div>
+      <section class="container-fluid">
+         <div class="row bg-color-contact">
+            <div class="col">
+               <h3 class="contact-heading uppercase text-center">need to get in touch?</h3>
+               <h5 class='text-center' style="font-style:italic">Please fill the form, our customer representative will respond shortly.</h5>
+               <div class="center-form">
+                  <form>
+                     <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                     <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                     <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Request" required></textarea>
+                     <div class="form-row text-center">
+                        <div class="col">
+                           <button id="sendRequest" type="submit" class="btn btn-secondary">Send Request</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+               <div class="space"></div>
+            </div>
+         </div>
+      </section>
+      <footer class="container-fluid">
+         <div id="footer-details" class="row">
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">Reviews <i class="fas fa-star" aria-hidden="true"><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star" aria-hidden="true"></i><i class="fas fa-star-half-alt"></i></i></h5>
+               <p class="inline-block">
+                  Click on this <a href="index.html#reviews" target="_blank" class="cv-pdf">
+                  <span>review link</span>
+                  </a> to read our happy customer reviews.
+               </p>
+            </div>
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">Social</h5>
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
+                     <i class="fab fa-facebook" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.twitter.com/" rel="noreferrer">
+                     <i class="fab fa-twitter" aria-hidden="true"></i>
+                     <span class="sr-only">Twitter</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
+                     <i class="fab fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.youTube.com/" rel="noreferrer">
+                     <i class="fab fa-youtube" aria-hidden="true"></i>
+                     <span class="sr-only">YouTube</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-4">
+               <h5 class="uppercase general-sub">Copy Right</h5>
+               <p class="inline-block">
+                  &copy; 2020 ReadyFood Restaurant
+               </p>
+            </div>
+         </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+      <script src="bootstrap/bootstrap.min.js"></script>
+</html>

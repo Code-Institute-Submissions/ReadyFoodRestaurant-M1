@@ -67,9 +67,10 @@ body {
 .navbar {
     margin-bottom: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(0, 0, 0, .9);
     border: 0;
     color: white;
+    height: 75px;
 
 }
 .navbar-dark .navbar-text {
@@ -90,6 +91,9 @@ body {
     
 }
 
+.navbar-dark .navbar-nav .nav-link {
+    color: #adb5bd;
+}
 
 /* Jumbotron */
 
@@ -176,6 +180,10 @@ body {
     border-radius: 0;
 }
 
+.site-wide-alert a{
+    color: #001dec;
+}
+
 /* Page Headers */
 
 .page-header {
@@ -220,23 +228,99 @@ border-color:#ffc107;
 }
 
 /* Footer */
-footer{
-height:150px
+footer {
+    background-color: rgba(0, 0, 0, .9);
+    color: #fafafa;
+    min-height: 120px;
+    margin: bottom;
 }
 
-.social-networks{
-  text-align:center;
-    padding-left: 0px;
+.cv-pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-networks li{
-display:inline;
+.cv-pdf i:hover {
+    color: #e84610;
 }
 
-.social-networks i {
-font-size:160%;
-margin:1%;
-padding:5%;
-color:#cab36e;
+.social-links {
+    padding-bottom: 15px;
 }
 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #1b1a19;
+}
+
+#footer-details {
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+/* sticky */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+  .sticky + #carousel_8514 {
+    padding-top: 102px;
+  }
+
+  /* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 180px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #6c757d;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.space{
+    height: 310px;
+}
