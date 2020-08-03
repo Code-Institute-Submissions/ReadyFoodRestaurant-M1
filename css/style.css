@@ -2,6 +2,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#contact-body {
+    background-color: #e5e5e5;
+}
+
 .active{
     border-bottom: 1px solid #777777
   }
