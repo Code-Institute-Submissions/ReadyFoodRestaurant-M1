@@ -10,3 +10,7 @@ function myFunction() {
 }
 
 window.onscroll = myFunction;
+
+$(document).ready(function() {
+    myFunction();
+});
