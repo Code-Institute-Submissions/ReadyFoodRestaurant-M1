@@ -1,5 +1,12 @@
-window.onscroll=function(){myFunction()};
-var header=document.getElementById("navbar"),
-sticky=header.offsetTop;function myFunction(){window.pageYOffset>sticky?header.classList.add("sticky"):header.classList.remove("sticky")}
+var header = document.getElementById("navbar"),
+    sticky = header.offsetTop;
 
-$("#sendRequest").click(function(){alert("Message sent successfuly")});
+function myFunction() {
+    if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+    } else {
+        header.classList.remove("sticky");
+    }
+}
+
+window.onscroll = myFunction;
