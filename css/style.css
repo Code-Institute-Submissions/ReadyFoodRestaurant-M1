@@ -14,20 +14,6 @@ body {
 .container-wrapper {}
 */
 
-.container-wrapper--red {
-
-    color: white;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-    position: relative;
-}
-
 .callout-container {
     height: 100vh;
     /*no-repeat bottom right fixed*/
@@ -208,28 +194,6 @@ body {
 
 /* Features */
 
-.feature {
-    text-align: center;
-    margin-bottom: 40px;
- background-color: rgba(0, 0, 0, 0.5);
-
-}
-
-.feature i {
-    margin-bottom: 20px;
-    font-size: 45px;
-    line-height: 45px;
-}
-
-.feature .btn {
-    background-color: #ffc107;
-    border-radius: 15px;
-    min-width: 100px;
-    font-weight: 300px;
-    margin-top: 10px;
-    color: #f05f40;
-border-color:#ffc107;
-}
 
 /* Footer */
 footer {
@@ -237,21 +201,6 @@ footer {
     color: #fafafa;
     min-height: 120px;
     margin: bottom;
-}
-
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
 }
 
 .social-links {
